@@ -5,7 +5,7 @@ import axios from 'axios';
 axios.defaults.baseURL = 'https://pixabay.com/api/';
 
 // Константа с API-ключом
-const API_KEY = '34523545-f21683fd59bfc3e4e2549fe07';
+const API_KEY = '39436863-f1733463629953fb7b2461532';
 
 // Константа, определяющая количество изображений на странице
 export const perPage = 12;

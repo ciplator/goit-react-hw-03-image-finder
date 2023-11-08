@@ -9,13 +9,7 @@ export const SearchForm = styled.form`
   align-items: center;
   justify-content: center;
   padding: 20px 0 20px 0;
-  background: linear-gradient(
-    315deg,
-    rgba(101, 0, 94, 0.7) 3%,
-    rgba(60, 132, 206, 0.7) 38%,
-    rgba(48, 238, 226, 0.7) 68%,
-    rgba(255, 25, 25, 0.7) 98%
-  );
+  background: blue;
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
   z-index: 999;
 `;

@@ -6,7 +6,6 @@ import {
   SearchInput,
   SearchButton,
   SearchSpan,
-  SearchLogo,
 } from './SearchBar.styled';
 
 class SearchBar extends Component {
@@ -30,13 +29,6 @@ class SearchBar extends Component {
     return (
       <header>
         <SearchForm onSubmit={this.handleSubmit}>
-          <a href="https://pixabay.com/" target="_blank" rel="noreferrer">
-            <SearchLogo
-              src={require('./pixabay-logo.png')} // Логотип Pixabay
-              alt="logo"
-              width="200"
-            />
-          </a>
           <SearchButton>
             <BsSearch />
             <SearchSpan>Search</SearchSpan>
